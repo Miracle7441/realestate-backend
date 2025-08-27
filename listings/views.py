@@ -21,9 +21,7 @@ from rest_framework.exceptions import ValidationError
 
 User = get_user_model()
 
-# --------------------------
-# TEST CREATE LISTING (DEBUG)
-# --------------------------
+
 @api_view(['POST'])
 def test_create_listing(request):
     try:
