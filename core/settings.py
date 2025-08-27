@@ -24,7 +24,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "dev-fallback-key")
 
 DEBUG = False
 
-ALLOWED_HOSTS = ["realestate-backend-p3de.onrender.com"]
+ALLOWED_HOSTS = ["realestate-backend-p3de.onrender.com", "127.0.0.1", "localhost"]
 
 
 
